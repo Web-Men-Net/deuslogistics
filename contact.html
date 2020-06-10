@@ -159,31 +159,32 @@
                     <ul class="row">
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
                         </label>
                       </li>
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail">
+                          <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail" required>
                         </label>
                       </li>
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="phone" id="company" placeholder="Phone">
+                          <input type="text" class="form-control" name="phone" id="company" placeholder="Phone" required>
                         </label>
                       </li>
                       <li class="col-sm-6">
                         <label>
-                          <input type="text" class="form-control" name="subject" id="website" placeholder="Subject">
+                          <input type="text" class="form-control" name="subject" id="website" placeholder="Subject" required>
                         </label>
                       </li>
                       <li class="col-sm-12">
                         <label>
-                          <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                          <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
                         </label>
                       </li>
                       <li class="col-sm-12">
-                        <button  name="submit" type="submit" value="submit" class="btn" id="btn_submit" onClick="proceed();">Submit</button>
+                        <button  name="submit" type="submit" value="submit" class="btn" id="btn_submit" onClick="proceed(); ">Submit</button>
+                      
                       </li>
                     </ul>
                   </form>
@@ -192,6 +193,8 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-5 col-xs-12"> 
+
+        
             
             <!-- Contact Info -->
             <div class="services">
